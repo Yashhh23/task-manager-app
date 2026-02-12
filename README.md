@@ -5,7 +5,7 @@ This is a full-stack Task Management application built using the MERN stack.
 Users can register, login, and manage their tasks efficiently.
 
 ## Tech Stack
-Frontend: React.js, Tailwind CSS
+Frontend: React.js, CSS
 Backend: Node.js, Express.js
 Database: MongoDB Atlas
 Authentication: JWT
