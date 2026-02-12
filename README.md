@@ -1,43 +1,43 @@
-# Task Management Application
+# Task Manager App (MERN Stack)
 
-## Overview
-This is a full-stack Task Management application built using the MERN stack. 
-Users can register, login, and manage their tasks efficiently.
+## 🚀 Project Overview
+A full-stack Task Manager application built using MERN stack with authentication and protected routes.
 
-## Tech Stack
-Frontend: React.js, CSS
-Backend: Node.js, Express.js
-Database: MongoDB Atlas
-Authentication: JWT
-Security: bcrypt password hashing
+## 🛠 Tech Stack
+Frontend: React + Vite  
+Backend: Node.js + Express  
+Database: MongoDB  
+Authentication: JWT + Bcrypt  
 
-## Features
-- User authentication (Signup/Login)
-- Add/Edit/Delete tasks
-- Update task status
-- Responsive design
-- Secure APIs
+## ✨ Features
+- User Signup & Login
+- Password Hashing
+- JWT Authentication
+- Protected Dashboard
+- Logout functionality
+- MongoDB Integration
 
-## Setup Instructions
+## 📂 Project Structure
+client/ - Frontend  
+server/ - Backend  
+
+## ⚙️ Installation
 
 ### Backend
-cd server
-npm install
-npm start
+cd server  
+npm install  
+npm start  
 
 ### Frontend
-cd client
-npm install
-npm run dev
+cd client  
+npm install  
+npm run dev  
 
-## Product Decisions
-- Used JWT for scalable authentication
-- Separated backend & frontend for scalability
-- Task linked to user for data isolation
+## 🔐 Environment Variables
+Create .env inside server folder:
 
-## Future Improvements
-(Write list from above)
+MONGO_URI=your_mongodb_uri  
+JWT_SECRET=your_secret_key  
 
-## Deployment
-Frontend deployed on Vercel
-Backend deployed on Render
+## 🌟 Author
+Amitesh Joshi
